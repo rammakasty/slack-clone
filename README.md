@@ -32,42 +32,63 @@
 $ npm install
 ```
 
-## Running the app
+# 슬랙 만들어보기
 
-```bash
-# development
-$ npm run start
+<p align="center">
+  <br>
+  <img src="./images/common/logo-sample.jpeg">
+  <br>
+</p>
 
-# watch mode
-$ npm run start:dev
+목차
 
-# production mode
-$ npm run start:prod
-```
+## 프로젝트 소개
 
-## Test
+<p align="justify">
+프로젝트 개요/동기
+</p>
 
-```bash
-# unit tests
-$ npm run test
+<p align="center">
+GIF Images
+</p>
 
-# e2e tests
-$ npm run test:e2e
+<br>
 
-# test coverage
-$ npm run test:cov
-```
+## 기술 스택
 
-## Support
+| JavaScript | TypeScript |   Node   |
+| :--------: | :--------: |  :-----: |
+|   ![js]    |   ![ts]    |  ![node] |
 
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
+<br>
 
-## Stay in touch
+## 구현 기능
 
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
+### 기능 1  기본 nest 기능구현
 
-## License
+### 기능 2  웹소켓을 통한 전체대화
 
-Nest is [MIT licensed](LICENSE).
+### 기능 3  멤버 설정
+
+### 기능 4
+
+<br>
+
+## 배운 점 & 아쉬운 점
+
+<p align="justify">
+
+</p>
+
+<br>
+
+## 라이센스
+
+MIT &copy; [NoHack](mailto:lbjp114@gmail.com)
+
+<!-- Stack Icon Refernces -->
+
+[js]: /images/stack/javascript.svg
+[ts]: /images/stack/typescript.svg
+[react]: /images/stack/react.svg
+[node]: /images/stack/node.svg
