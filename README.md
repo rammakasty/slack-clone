@@ -54,11 +54,6 @@ GIF Images
 
 <br>
 
-## 기술 스택
-
-| JavaScript | TypeScript |   Node   |
-| :--------: | :--------: |  :-----: |
-|   ![js]    |   ![ts]    |  ![node] |
 
 <br>
 
