@@ -34,13 +34,9 @@ $ npm install
 
 # 슬랙 만들어보기
 
-<p align="center">
-  <br>
-  <img src="./images/common/logo-sample.jpeg">
-  <br>
-</p>
 
-목차
+
+
 
 ## 프로젝트 소개
 
@@ -48,9 +44,7 @@ $ npm install
 프로젝트 개요/동기
 </p>
 
-<p align="center">
-GIF Images
-</p>
+
 
 <br>
 
@@ -61,7 +55,7 @@ GIF Images
 
 ### 기능 1  기본 nest 기능구현
 
-### 기능 2  웹소켓을 통한 전체대화
+### 기능 2  웹소켓을 통한 채팅방 구현
 
 ### 기능 3  멤버 설정
 
