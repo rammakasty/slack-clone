@@ -1,4 +1,25 @@
-import { Controller } from '@nestjs/common';
+import { Controller, Get, Post, Req, Res} from '@nestjs/common';
 
 @Controller('users')
-export class UsersController {}
+export class UsersController {
+    @Get()
+    getUsers(@Req() req) {
+        return req.user
+    }
+
+    @Post()
+    postUsers() {}
+
+    @Post('login')
+    logIn() {
+        return req.user
+    }
+
+    @Post('logout')
+    logOut(@Req() req, @Res() res) {
+        req.logOut()
+        res.clearCookie('connext.sid', {httoOnly:true})
+        res.send('ok')
+    }
+
+}
