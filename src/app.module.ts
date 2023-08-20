@@ -4,6 +4,8 @@ import { LoggerMiddleware } from 'middlewares/logger.middleware';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
 import { UsersModule } from './users/users.module';
+import { DmsModule } from './dms/dms.module';
+import { WorkspacesModule } from './workspaces/workspaces.module';
 
 const getEnv = () => {
   return {
@@ -11,7 +13,7 @@ const getEnv = () => {
 }
 
 @Module({
-  imports: [ConfigModule.forRoot( { isGlobal: true}), UsersModule],
+  imports: [ConfigModule.forRoot( { isGlobal: true}), UsersModule, DmsModule, WorkspacesModule],
   controllers: [AppController],
   providers: [AppService, ConfigService],
 })
