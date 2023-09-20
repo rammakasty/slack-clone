@@ -41,7 +41,7 @@ $ npm install
 ## 프로젝트 소개
 
 <p align="justify">
-프로젝트 개요/동기
+제로초님의 nest 강의를 듣고 구현하는 코드입니다.
 </p>
 
 
@@ -59,7 +59,7 @@ $ npm install
 
 ### 기능 3  멤버 설정
 
-### 기능 4
+### 기능 4  슬랙의 추가 기능들 구현
 
 <br>
 
@@ -71,13 +71,10 @@ $ npm install
 
 <br>
 
-## 라이센스
+## 목표
 
-MIT &copy; [NoHack](mailto:lbjp114@gmail.com)
+### nest와 익숙해지는것과 기본역량 강화
 
-<!-- Stack Icon Refernces -->
+## 추가목표
 
-[js]: /images/stack/javascript.svg
-[ts]: /images/stack/typescript.svg
-[react]: /images/stack/react.svg
-[node]: /images/stack/node.svg
+### 슬랙의 세부 기능까지 도전해보기
